@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Simon</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Press+Start+2P"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <span id="info-icon">&#9432;</span>
+    <div class="header">
+      <h1 id="level-title">Press any key to Start</h1>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div type="button" id="green" class="btn green"></div>
+        <div type="button" id="red" class="btn red"></div>
+      </div>
+      <div class="row">
+        <div type="button" id="yellow" class="btn yellow"></div>
+        <div type="button" id="blue" class="btn blue"></div>
+      </div>
+    </div>
+
+    <div id="popup" class="hidden">
+      <div class="popup-content">
+        <span id="close-popup" class="close">&times;</span>
+        <h2>
+          How to Play <br />
+          Simon Game
+        </h2>
+        <ul>
+          <li>Press a key to start.</li>
+          <li>Watch the color sequence.</li>
+          <li>Repeat the sequence by clicking.</li>
+          <li>Each level adds a new color.</li>
+          <li>Game ends on a wrong move.</li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="game.js" charset="utf-8"></script>
+  </body>
+</html>

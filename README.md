@@ -4,14 +4,6 @@ Overview 🌟
 
 Welcome to the Simon Game! This is a fun memory game where the player must repeat a sequence of colors shown on the screen. The sequence increases in length as the player progresses, making the game more challenging with each level.
 
-Features ✨
-
-- Press any key to start the game 🖱️
-- Watch the color sequence 🔵🟢🟡🔴
-- Repeat the sequence by clicking the corresponding buttons 💡
-- The game ends when a wrong move is made ❌
-- Popup available with game instructions 📝
-
 Game Instructions 📝
 
 1. Press any key to start the game. ⌨️

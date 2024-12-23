@@ -10,9 +10,17 @@
     />
   </head>
   <body>
-    <span id="info-icon">&#9432;</span>
-    <div class="header">
-      <h1 id="level-title">Press any key to Start</h1>
+    <div class="row">
+      <div class="col-8">
+        <h1 id="level-title">Press any key to Start</h1>
+      </div>
+      <div class="col-3">
+        <div>
+          <p id="score">Score: 0</p>
+          <p id="high-score">High Score: 0</p>
+        </div>
+      </div>
+      <div class="col-1"><span id="info-icon">&#9432;</span></div>
     </div>
 
     <div class="container">
@@ -42,6 +50,8 @@
         </ul>
       </div>
     </div>
+
+    <button id="restart-btn" class="hidden">Restart Game</button>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="game.js" charset="utf-8"></script>

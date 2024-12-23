@@ -14,6 +14,13 @@ body {
   color: #fef2bf;
 }
 
+#score,
+#high-score {
+  font-size: 1.5rem;
+  color: #fef2bf;
+  margin: 10px 0;
+}
+
 #info-icon {
   font-size: 1.5rem;
   color: #fef2bf;
@@ -112,4 +119,19 @@ body {
 
 .close:hover {
   color: red;
+}
+
+#restart-btn {
+  padding: 10px 20px;
+  background-color: #011f3f;
+  color: white;
+  border: 5px solid white;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+#restart-btn:hover {
+  background-color: white;
+  color: #011f3f;
 }
